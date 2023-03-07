@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Fira+Sans&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Fira+Sans&family=Poppins:wght@500&family=Source+Code+Pro:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -7,9 +8,10 @@
 }
 
 .sidebar {
-    background-color: red;
-    font-family: 'Poppins', sans-serif;
+    background-color: rgb(238, 234, 234);
+    font-family: 'Fira Sans', sans-serif;
     height: 100vh;
+    width: 190px;
 
 } 
 .sidebar nav {
@@ -18,20 +20,50 @@
 .sidebar nav li {
     list-style: none;
     font-size: 30px;
-    padding: 33px;
+    padding: 3px;
 }
 .main {
-    background-color: yellow;
+    /* background-color: aqua; */
     width: 90vw;
 }
 .container {
     display: flex;
 }
 .infoContainer{
-    background-color: rgb(235, 137, 137);
-    height: 70vh;
+    /* background-color: rgb(217, 209, 221); */
+    height: 65vh;
     width: 70vw;
     margin: 144px auto;
     display: flex;
+    justify-content: space-around;
+}
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 65px;
+}
+.name {    
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+.about {
+    font-size: 40px;
+}
+.moreAbout {
+    font-size: 29px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons button {
 
+}
+.devPic img {
+    width: 65vh;
+    height: 65vh;
+    mix-blend-mode: darken;
+    padding-top: 40px;
 }
