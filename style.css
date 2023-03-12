@@ -130,3 +130,36 @@
     width: 24px;
     margin: 3px 0;
 }
+.blogItem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+ h1{
+    margin: 23px;
+   font-family: 'Fira Sans', sans-serif; 
+} 
+
+ p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+.into p {
+   font-family: 'Source Code Pro', monospace; 
+   margin: 12px;
+}
+.skillcontainer {
+   padding: 10px;
+}
+.skill{
+    width: 256px;
+    height: 8px;
+    background-color: red;
+}
+.skillItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
