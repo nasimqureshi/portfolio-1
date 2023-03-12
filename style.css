@@ -11,7 +11,7 @@
     background-color: rgb(71, 67, 67);
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
-    width: 434px;
+    width: 335px;
 
 } 
 .sidebar nav {
@@ -87,18 +87,46 @@
     mix-blend-mode: darken;
     margin-bottom: 500px;
 }
-.contactform {
+.contactform h1{
     font-family: 'Fira Sans', sans-serif; 
     padding-top: 144px;
 }
 .contactform {
-    text-align: center;
+    padding: 19px;
 }
-.contactform div {
+.contactform form div {
     padding: 17px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6ox 0;
+    padding: 3px;
+
 }
 #emailHelp {
     font-size: 8px;
     color: midnightblue;
     margin: 0 5px;
+}
+.contactform form div input{
+    width: 16vw;
+    margin: 6px 0;
+    border-radius: 5px;
+    padding: 3px;
+}
+#emailHelp {
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+.form-check {
+    flex-direction: row;
+
+}
+.form-check input {
+    width: 24px;
+    margin: 3px 0;
 }
